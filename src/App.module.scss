@@ -14,16 +14,26 @@
 }
 
 .App-header {
+  padding: 1px;
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 30px;
   color: white;
+  text-align: center;
 }
 
+button {
+  font-size: inherit;
+  margin: 0 0.6rem;
+}
+
+p {
+  margin: 10px 0;
+}
+.upper-first-letter::first-letter {
+  text-transform: uppercase;
+}
 .App-link {
   color: #61dafb;
 }
